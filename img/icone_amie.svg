@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 196 196" style="enable-background:new 0 0 196 196;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000156589394115862660750000012939453894628767651_);fill:#BB70A6;}
+	.st1{clip-path:url(#SVGID_00000065076241362792788530000001002372123057546132_);fill:#FFFFFF;}
+	.st2{clip-path:url(#SVGID_00000008132809919155193690000014033064222324549291_);fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="97.4" cy="97.6" r="88.6"/>
+		</defs>
+		<clipPath id="SVGID_00000152954369992412602690000016592010539774297995_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<circle style="clip-path:url(#SVGID_00000152954369992412602690000016592010539774297995_);fill:#BB70A6;" cx="97.4" cy="97.6" r="88.6"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_00000017483862367642826770000005854244750938837129_" cx="97.4" cy="97.6" r="88.6"/>
+		</defs>
+		<clipPath id="SVGID_00000097466840250559433470000001511651802135249560_">
+			<use xlink:href="#SVGID_00000017483862367642826770000005854244750938837129_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<circle style="clip-path:url(#SVGID_00000097466840250559433470000001511651802135249560_);fill:#FFFFFF;" cx="97.4" cy="78.5" r="29.8"/>
+	</g>
+	<g>
+		<defs>
+			<circle id="SVGID_00000039094654124978628400000005063022005925574818_" cx="97.4" cy="97.6" r="88.6"/>
+		</defs>
+		<clipPath id="SVGID_00000183964211304357374280000003321140612537565595_">
+			<use xlink:href="#SVGID_00000039094654124978628400000005063022005925574818_"  style="overflow:visible;"/>
+		</clipPath>
+		
+			<ellipse style="clip-path:url(#SVGID_00000183964211304357374280000003321140612537565595_);fill:#FFFFFF;" cx="97.4" cy="170.4" rx="78.3" ry="62.1"/>
+	</g>
+</g>
+</svg>
