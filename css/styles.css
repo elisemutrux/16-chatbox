@@ -2,9 +2,74 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: helvetica; 
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.chat-container {
+  max-width: 300px;
+  margin: auto;
+  border: 1px solid black;
+  box-shadow: 0 0 5px #3333;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.message-box {
+  margin-bottom: 10px;
+  max-width: 75%;
+  margin: 0 15px 25px;
+}
+
+.message-box .message-content {
+  background: blue;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+
+.icone-author {
+  margin: 5px 0 0 0;
+}
+
+.message-box-astronaute .message-content {
+  background: #33f;
+  padding: 10px;
+  border-radius: 10px 0 10px 10px;
+}
+
+.message-box-astronaute {
+  align-self: flex-end;
+  text-align: right;
+}
+
+.message-box-amie .message-content {
+  background: red;
+  border-radius: 0 10px 10px 10px;
+}
+
+h1 {
+  margin: 0;
+  background: #eee;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+.chat-form {
+  background: #333;
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
 }
