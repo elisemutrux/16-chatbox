@@ -6,8 +6,9 @@ body {
 }
 
 img {
-  display: block;
   max-width: 75%;
+  margin: 0 15px 0 15px;
+  border-radius: 10px;
 }
 
 .chat-container {
@@ -16,10 +17,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border: 1px solid black;
+  box-shadow: 0 0 5px #3333;
 }
 
 .message-box {
-  margin-bottom: 10px;
   max-width: 75%;
   margin: 0 15px 25px;
 }
@@ -38,7 +40,7 @@ img {
 .message-box-astronaute .message-content {
   background: #d0656f;
   padding: 10px;
-  border-radius: 10px 0 10px 10px;
+  border-radius: 0 10px 10px 10px;
 }
 
 .message-box-astronaute {
@@ -53,7 +55,7 @@ img {
 
 .message-box-amie .message-content {
   background: #539ad1;
-  border-radius: 0 10px 10px 10px;
+  border-radius: 10px 0 10px 10px;
 }
 
 h1 {
@@ -63,18 +65,19 @@ h1 {
   top: 0;
   text-align: center;
   font-size: 25px;
-  padding: 10px;
+  padding: 10 5px 10px 10px;
   color: white;
 }
 
 .chat-form {
-  background: #333;
+  background: #1d1728;
   width: 100%;
-  padding: 5px;
+  padding: 15px;
   box-sizing: border-box;
   position: sticky;
-  bottom: 0;
   display: flex;
+  margin-bottom:10px;
+  border-radius: 15px;
   justify-content: space-between;
 }
 
@@ -84,13 +87,13 @@ h1 {
   color:white;
 }
 
-.icone-author .message-box-amie{
+.message-box-astronaute .icone-author{
   display:flex;
-  align-items: flex-end;
+  align-content: flex-start;
 }
 
 .icone{
-  height: 40px;
+  height: 25px;
 }
 
 .titel-chatbox{
