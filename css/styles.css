@@ -23,7 +23,7 @@ img {
   box-shadow: 0 0 5px #3333;
 }
 
-.titel-chatbox{
+.titel-chatbox {
   display:flex;
   width: 100%;
   align-items:center;
@@ -64,7 +64,7 @@ img {
   text-align: right;
 }
 
-.message-box-amie{
+.message-box-amie {
   align-self: flex-end;
   text-align: right;
 }
@@ -97,33 +97,33 @@ h1 {
   bottom: 0;
 }
 
-.message-box-astronaute .icone-author{
+.message-box-astronaute .icone-author {
   display:flex;
   align-content: flex-start;
 }
 
-.icone{
+.icone {
   height: 25px;
 }
 
-.date{
+.dat e{
   display:flex;
   align-self: center;
   color:white;
 }
 
-.text-cartouche{
+.text-cartouche {
   display:flex;
   width :100%;
   align-items: center
 }
 
-.line-left{
+.line-left {
   flex-grow: 1;
   margin: 5px;
 }
 
-.line-right{
+.line-right {
   flex-grow: 1;
   margin: 7px;
 }
