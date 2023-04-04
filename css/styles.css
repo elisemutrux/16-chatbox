@@ -17,8 +17,17 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  border: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
   box-shadow: 0 0 5px #3333;
+}
+
+.titel-chatbox{
+  display:flex;
+  align-items:center;
+  align-self: center;
+  background: #2b2f5c;
+  padding: 10px;
 }
 
 .message-box {
@@ -76,9 +85,9 @@ h1 {
   box-sizing: border-box;
   position: sticky;
   display: flex;
-  margin-bottom:10px;
   border-radius: 15px;
   justify-content: space-between;
+  bottom: 0;
 }
 
 .date{
@@ -96,10 +105,3 @@ h1 {
   height: 25px;
 }
 
-.titel-chatbox{
-  display:flex;
-  align-items:center;
-  align-self: center;
-  background: #2b2f5c;
-  padding: 10px;
-}
