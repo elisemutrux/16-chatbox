@@ -2,7 +2,8 @@ body {
   max-width: 320px;
   margin: auto;
   background: #252245;
-  font-family: helvetica; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
 }
 
 img {
@@ -50,6 +51,7 @@ img {
   background: #d0656f;
   padding: 10px;
   border-radius: 0 10px 10px 10px;
+  text-align: start;
 }
 
 .message-box-astronaute {
@@ -90,12 +92,6 @@ h1 {
   bottom: 0;
 }
 
-.date{
-  display:flex;
-  align-self: center;
-  color:white;
-}
-
 .message-box-astronaute .icone-author{
   display:flex;
   align-content: flex-start;
@@ -105,3 +101,24 @@ h1 {
   height: 25px;
 }
 
+.date{
+  display:flex;
+  align-self: center;
+  color:white;
+}
+
+.text-cartouche{
+  display:flex;
+  width :100%;
+  align-items: center
+}
+
+.line-left{
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.line-right{
+  flex-grow: 1;
+  margin: 7px;
+}
