@@ -13,6 +13,7 @@ img {
 }
 
 .chat-container {
+  background: #252245;
   max-width: 300px;
   padding: 0;
   display: flex;
@@ -106,7 +107,7 @@ h1 {
   height: 25px;
 }
 
-.dat e{
+.date{
   display:flex;
   align-self: center;
   color:white;
